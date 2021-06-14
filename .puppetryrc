@@ -1,0 +1,37 @@
+{
+  "name": "Test Project",
+  "appPanels": {
+    "suite": {
+      "panes": [
+        "groups"
+      ]
+    },
+    "settings": {
+      "panes": []
+    }
+  },
+  "groups": {
+    "esrkpl538pj": {
+      "key": "esrkpl538pj",
+      "value": true,
+      "tests": {
+        "esrkppfcri1": {
+          "key": "esrkppfcri1",
+          "value": true
+        }
+      }
+    }
+  },
+  "savedAt": 1623241204,
+  "modified": false,
+  "lastOpenSuite": "firefox--upload--error.json",
+  "variables": {},
+  "targets": {},
+  "environments": [
+    "test",
+    "stage",
+    "production"
+  ],
+  "projectDirectory": "/Users/greg/Desktop/projects/test--project",
+  "puppetry": "3.2.5"
+}

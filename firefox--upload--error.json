@@ -1,0 +1,109 @@
+{
+  "title": "Firefox Upload Error",
+  "timeout": 10000,
+  "snippets": false,
+  "description": "",
+  "savedAt": 1623241182,
+  "loadedAt": 1622981179,
+  "modified": false,
+  "filename": "firefox--upload--error.json",
+  "targets": {
+    "esrkpl538pi": {
+      "target": "MDN_FILE_INPUT",
+      "id": "esrkpl538pi",
+      "editing": false,
+      "selector": "input[type=\"file\"]",
+      "key": "esrkpl538pi"
+    }
+  },
+  "groups": {
+    "esrkpl538pj": {
+      "title": "Test",
+      "id": "esrkpl538pj",
+      "editing": false,
+      "key": "esrkpl538pj",
+      "tests": {
+        "esrkppfcri1": {
+          "title": "Test",
+          "id": "esrkppfcri1",
+          "editing": false,
+          "groupId": "esrkpl538pj",
+          "key": "esrkppfcri1",
+          "commands": {
+            "esrkppfczfm": {
+              "editing": false,
+              "id": "esrkppfczfm",
+              "key": "esrkppfczfm",
+              "target": "page",
+              "method": "goto",
+              "params": {
+                "url": "https://html.com/input-type-file/",
+                "timeout": 30000,
+                "waitUntil": "load"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "esrkpl538pj",
+              "testId": "esrkppfcri1",
+              "waitForTarget": false
+            },
+            "esrkppfpjp4": {
+              "editing": false,
+              "id": "esrkppfpjp4",
+              "key": "esrkppfpjp4",
+              "target": "page",
+              "method": "setViewport",
+              "params": {
+                "width": "1024",
+                "height": "768",
+                "resolution": "1024x768",
+                "deviceScaleFactor": 1,
+                "isMobile": false,
+                "hasTouch": false,
+                "isLandscape": false
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "esrkpl538pj",
+              "testId": "esrkppfcri1",
+              "waitForTarget": false
+            },
+            "esrkppfiz4a": {
+              "editing": false,
+              "id": "esrkppfiz4a",
+              "key": "esrkppfiz4a",
+              "target": "MDN_FILE_INPUT",
+              "method": "upload",
+              "params": {
+                "path": "/Users/greg/Desktop/projects/test--project/testing.txt",
+                "size": 0,
+                "name": "attachment.txt"
+              },
+              "disabled": false,
+              "failure": "",
+              "variables": {},
+              "expanded": false,
+              "refName": "",
+              "ref": "",
+              "isRef": false,
+              "groupId": "esrkpl538pj",
+              "testId": "esrkppfcri1",
+              "waitForTarget": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "puppetry": "3.2.5"
+}
